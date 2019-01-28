@@ -3,7 +3,7 @@ Control your microcontroller via serial (string) commands.
 
 Usage is really simple. It goes something like this:
 
-'''c
+```c
 #include <stdio.h>
 #include <stdint.h>
 #include "cmd.h"
@@ -27,7 +27,7 @@ int main(void) {
 	    {"pwmdc",   pwmdc_callback},
 
 	    /* Keep this element last always.
-	      Used to calculate table size!*/
+	      Used to find where table ends!*/
 	    CMD_TABLE_END,
 	};
 
@@ -44,6 +44,6 @@ int main(void) {
 	
 	return 0;
 }
-'''
+```
 
 Have fun!
