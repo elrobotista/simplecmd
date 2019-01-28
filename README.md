@@ -3,7 +3,7 @@ Control your microcontroller via serial (string) commands.
 
 Usage is really simple. It goes something like this:
 
-'''cpp
+'''c
 #include <stdio.h>
 #include <stdint.h>
 #include "cmd.h"
