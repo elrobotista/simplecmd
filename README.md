@@ -46,4 +46,6 @@ int main(void) {
 }
 ```
 
+Visit https://elrobotista.com/comandos-serial/ for a tutorial on how this was built :D
+
 Have fun!
